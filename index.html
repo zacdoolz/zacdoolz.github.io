@@ -2,14 +2,186 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zac Dooley | FinTech Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #F2E8C6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #800000;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 45px;
+      /* Added bottom padding */
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p,
+    header a {
+      margin: 8px 0;
+      color: #F2E8C6;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 12px;
+      background-color: #DAD4B5;
+      color: #800000;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #982B1C;
+      color: white;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-left: 8px solid #982B1C;
+      border-radius: 10px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #800000;
+      border-bottom: 2px solid #DAD4B5;
+      padding-bottom: 8px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .subheading {
+      color: #982B1C;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      section {
+        margin: 20px 10px;
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>My site</h1>
-  <!-- TODO: Write your website here -->
+  <header>
+    <h1>Zac Dooley</h1>
+    <p>Sydney, Australia | zacdooley2@gmail.com | 0451 161 679</p>
+    <a href="https://linkedin.com/in/zacdooley" class="btn">LinkedIn</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>A dedicated and motivated student specializing in Financial Technology (FinTech), equipped with a strong
+      background in data analysis, financial modelling, blockchain, and process optimization. I apply a creative
+      approach to developing innovative solutions, blending analytical precision with artistic insight.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Python – Skillful</li>
+      <li>Data Analytics – Skillful</li>
+      <li>Microsoft Office – Experienced</li>
+      <li>Blockchain & Cryptocurrency – Skillful</li>
+      <li>Creative Design & Visual Communication – Experienced</li>
+      <li>Problem Solving – Skillful</li>
+      <li>Figma – Beginner</li>
+      <li>Digital Transformation – Skillful</li>
+      <li>Interpersonal & Time Management – Experienced</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <p class="subheading">Warehouse Worker, Pro Prep and Fulfilment (Sep 2023 – Present)</p>
+    <ul>
+      <li>Managed order fulfilment and logistics automation for domestic & international shipments</li>
+      <li>Refined process automation to increase daily output efficiency by 20%</li>
+      <li>Implemented structured pick-and-pack processes and enhanced operational workflow</li>
+      <li>Collaborated in a fast-paced environment, improving problem-solving and adaptability</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Volunteer Experience</h2>
+    <p class="subheading">Mentor Group Leader (Feb 2018 – Nov 2021)</p>
+    <ul>
+      <li>Completed 20+ hours of community service packaging food for 2,400+ families in South Africa</li>
+      <li>Mentored and led a group of younger boys in their final year of high school</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p class="subheading">University of New South Wales (Jan 2023 – Present)</p>
+    <p>Bachelor of Commerce – Major: Financial Technology | Minor: Accounting<br />Weighted average: 73% (High Credit)
+    </p>
+    <p>Relevant Courses: Data Analytics, Financial Systems, Blockchain & Cryptocurrencies, Business Strategy, Digital
+      Transformation</p>
+
+    <p class="subheading">Reddam House Constantia (Jan 2018 – Dec 2022)</p>
+    <p>Graduated with Half Colours in Academics – 75% Average<br />Vice Chairperson of Media Portfolio, gained
+      experience in digital marketing, group management, and leadership</p>
+  </section>
+
+  <section>
+    <h2>Languages & Hobbies</h2>
+    <ul>
+      <li>English – Native speaker</li>
+      <li>Afrikaans – A2</li>
+      <li>Hobbies: Golf, Guitar, Surfing</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>References</h2>
+    <p><strong>Paul Pemberton</strong> – Founder, Pro Prep and Fulfilment<br />📞 +61 478 300 142 | ✉️
+      paul.pemberton@proprepandfulfilment.com.au</p>
+    <p><strong>Rhys Acton</strong> – Local Church Mentor<br />📞 +27 72 149 0256 | ✉️ rhys.acton@hillsong.co.za</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Zac Dooley | Last updated: April 2025
+  </footer>
 </body>
 
 </html>
